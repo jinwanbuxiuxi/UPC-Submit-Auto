@@ -8,8 +8,8 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 
-signIn = {'username': os.environ["SJNUSERNAME"], #学号
-          'password': os.environ["SJNPASSWORD"]} #登陆密码
+signIn = {'username': os.environ["USERNAME"], #学号
+          'password': os.environ["PASSWORD"]} #登陆密码
 
 
 headers = {
